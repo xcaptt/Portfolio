@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Portfólio de Desenvolvedor</title> 
+     <link rel="stylesheet" href="styles.css"> 
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo">Port<span>fólio</span></a>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#objective" data-target="objective"></a></li>
+                        <li><a href="#about" data-target="about">Sobre mim</a></li>
+                        <li><a href="#projects" data-target="projects">Projetos</a></li>
+                        <li><a href="#contact" data-target="contact">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="objective" class="intro zoom-in visible">
+            <div class="container">
+                <div class="intro-content">
+                    <div class="text-content">
+                        <h1 class="enlarged-text">Olá, eu sou a Claudia</h1>
+                        <p class="highlighted-text">
+                           Estudante de Engenharia de Software <span class="highlight-blue">em</span>
+                            <span class="highlight-blue">Anhanguera Educacional</span>
+                        </p>
+                    </div>
+                    <div class="image-content">
+                        <img src="imagens/IMG_5246.jpeg" alt="claudia" class="responsive-image" />
+                    </div>
+                </div>
+            </div>
+        </section>        
+    
+        <section id="about" class="hidden">
+            <div class="container">
+                <div class="text-content">
+                    <p>Olá, me chamo Claudia Capeletti.</p>
+                    <p>
+                        Sou estudante de Engenharia de Software na Anhanguera Educacional. </br>
+                        Tenho sólida base em desenvolvimento web, com conhecimento em HTML, CSS e JavaScript, além de experiência em programação com Python e Node.js.
+                    </p>
+                    <p>
+                        Estou em busca de oportunidades para aplicar minhas habilidades e expandir meu conhecimento no campo da tecnologia, contribuindo com soluções inovadoras e eficazes.
+                    </p>
+                </div>
+                <div class="image-container">
+                    <img src="imagens/IMG_7904.jpeg" alt="Claudia" class="responsive-image" />
+                </div>
+            </div>        
+        </section>
+    
+        <section id="projects" class="hidden">
+            <div class="container">
+                <div class="projects-details">
+                    <div class="projects-item">
+                        <h3><a href="https://xcaptt.github.io/Person/" target="_blank">Person</a></h3>
+                        <p>Revista on-line sobre moda, esportes e entretenimento</p>
+                    </div>
+                    <div class="projects-item">
+                        <h3><a href="https://xcaptt.github.io/Gatinhos/" target="_blank">Gatinhos</a></h3>
+                        <p>Site divertido para incentivar a adoção de gatos, linkado com uma ong de Lisboa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>Se você tiver alguma dúvida ou pergunta, sinta-se à vontade para entrar em contato comigo através de:</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:claudiacapeletti1@gmail.com">claudiacapeletti1@gmail.com</a></p>
+                    </div>          
+                    <div class="contact-item">
+                        <h3>Redes Sociais</h3>
+                        <p>
+                            <a href="https://www.linkedin.com/in/claudia-capeletti-31756429a/" target="_blank">LinkedIn</a>
+                            <a href="https://github.com/xcaptt" target="_blank">GitHub</a>
+                            <a href="https://www.instagram.com/xcaptt/" target="_blank">Instagram</a>
+                        </p>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <p id="response-message"></p>
+
+                    <h3>Me envie uma mensagem</h3>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="container">
+                <p>&copy; Claudia Capeletti. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    
+        <script src="script.js"></script>
+</body> 
+</html>
