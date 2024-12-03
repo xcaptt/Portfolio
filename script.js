@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
             try {
                 console.log('Enviando dados:', data);
 
-                const response = await fetch('https://portfolio-back-inky.vercel.app/', {
+                const response = await fetch('https://portfolio-back-inky.vercel.app/submit-form', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data),
