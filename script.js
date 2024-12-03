@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
             try {
                 console.log('Enviando dados:', data);
 
-                const response = await fetch('https://portfolio-back-inky.vercel.app/api/submit-form', {
+                const response = await fetch('https://portfolio-back-am6zavzxm-claudias-projects-d0a1672e.vercel.app/api/submit-form', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data),
